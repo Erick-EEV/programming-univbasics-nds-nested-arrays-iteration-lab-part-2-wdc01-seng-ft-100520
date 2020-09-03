@@ -18,7 +18,7 @@ while loop do
   if
     variable == nil 
     src[i] < variable
-    p lowest_temps
+    p lowest_temps[]
   end
   
   
