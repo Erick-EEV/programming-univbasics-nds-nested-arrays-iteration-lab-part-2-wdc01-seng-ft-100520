@@ -15,14 +15,15 @@ def find_min_in_nested_arrays(src)
 lowest_temps = []
 i = 0
 while i < src.length do
-  # if variable == 1000
-  #   src[i] < variable
-  # end
   element_index = 0
   while element_index < src[i].length do
     if src[i][element_index] <  variable
       variable = src[i][element_index]
     end
+    element_index += 1
   end
+  lowest_temps << variable
+  i += 1
 end
+p lowest_temps
 end
