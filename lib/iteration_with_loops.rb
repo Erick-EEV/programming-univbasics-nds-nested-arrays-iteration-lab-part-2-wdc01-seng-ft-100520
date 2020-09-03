@@ -11,14 +11,18 @@ def find_min_in_nested_arrays(src)
   #   while element_index < src[row_index].count do
   #     if src[row_index][element_index][0] == v 
     
-  variable = nil
+  variable = 1000 #constent
 lowest_temps = []
 i = 0
-while loop do
-  if
-    variable == nil 
-    src[i] < variable
+while i < src.length do
+  # if variable == 1000
+  #   src[i] < variable
+  # end
+  element_index = 0
+  while element_index < src[i].length do
+    if src[i][element_index] <  variable
+      variable = src[i][element_index]
+    end
   end
-  
 end
 end
