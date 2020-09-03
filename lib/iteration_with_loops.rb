@@ -15,7 +15,9 @@ def find_min_in_nested_arrays(src)
 lowest_temps []
 while loop do
   
-  if variable == nil OR src[i] < variable
+  if
+    variable == nil 
+    src[i] < variable
     p lowest_temps
   end
   
