@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
   #     if src[row_index][element_index][0] == v 
     
   variable = nil
-lowest_temps[]
+lowest_temps = []
 while loop do
   
   if
