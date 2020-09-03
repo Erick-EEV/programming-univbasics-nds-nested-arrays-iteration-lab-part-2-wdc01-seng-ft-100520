@@ -14,13 +14,12 @@ def find_min_in_nested_arrays(src)
   variable = nil
 lowest_temps = []
 i = 0
-while loop do
-  
+while i < src.length do
   if
     variable == nil 
     src[i] < variable
   end
-  
+  p lowest_temps
   
 end
 end
