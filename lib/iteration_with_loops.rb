@@ -16,7 +16,7 @@ lowest_temps = []
 i = 0
 while i < src.length do
   element_index = 0
-  
+  variable = 1000
   while element_index < src[i].length do
     if src[i][element_index] <  variable
       variable = src[i][element_index]
